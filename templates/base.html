@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static' , filename= 'css/style.css') }}">
+</head>
+<body>
+
+<div class="wrapper">
+
+{% block menu %}
+
+{% endblock menu %}
+
+
+{% block content %}
+
+{% endblock content %}
+
+{% block main_page %}
+
+{% endblock main_page %}
+
+{% block footer %}
+
+{% endblock footer %}
+
+{% block content %}
+
+{% endblock content %}
+
+
+</div>
+</body>
+</html>
